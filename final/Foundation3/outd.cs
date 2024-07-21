@@ -1,6 +1,6 @@
 public class Outdoor : Event
 {
-    private string _weatherForcast = "23˚C - 🌤️ Clear Skies";
+    private string _weatherForcast = "23˚C - Clear Skies";
 
     public Outdoor()
     {
@@ -14,7 +14,7 @@ public class Outdoor : Event
 
     public void DisplayFullDetails()
     {
-        Console.WriteLine($"Weather Forecast ⛅️: {GetWeatherForecast()}\n");
+        Console.WriteLine($"Weather Forecast : {GetWeatherForecast()}\n");
         DisplayStandardDetails();
     }
 }
